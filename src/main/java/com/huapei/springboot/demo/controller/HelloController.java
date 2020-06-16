@@ -10,6 +10,6 @@ public class HelloController {
     @RequestMapping("/index")
     @ResponseBody
     public String index(){
-        return "你好啊，spring boot";
+        return "你好啊，spring boot，我进行了第二次修改";
     }
 }
